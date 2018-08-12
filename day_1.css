@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  background-color: #403E3E;
+}
+.canvas{
+  background-color: #7E7979;
+  width: 830px;
+  height: 800px;
+  color: #F9F1F1;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+}
+.canvas h1{
+  margin: 0px;
+  text-align: center;
+  font-size: 64px;
+  font-family: "SimSun";
+}
+.signin h2{
+  margin-top: 60px;
+  font-size: 41px;
+  text-align: center;
+  margin-left: 5px;
+}
+.signin{
+  margin-top:10%;
+  width: 50%;
+  height: auto;
+  float:left;
+}
+.signin:after{
+  display: block;
+  content: "";
+  clear:both;
+}
+.fab{
+  padding-left: 20px;
+}
+.signin li{
+  list-style-type: none;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  border: 1px solid black;
+  border-radius: 31px;
+  padding: 15px 15px;
+  font-size: 25px;
+  margin-left: 30px;
+  width: 60%;
+}
+.signin li:nth-child(1){
+  background-color: blue;
+}
+.signin li:nth-child(2){
+  background-color: #DC5043;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.fa-facebook-f{
+  color: black !important;
+}
+.fa-google-plus-g{
+  color: black !important;
+}
+.signin p{
+  margin-left: 65px;
+  font-size: 18px;
+}
+.vl{
+  position: absolute;
+  left: 50%;
+  height: 506px;
+  top: 140px;
+  border-left: 2px solid #C8C5C5;
+}
+.signin form{
+  margin-left: 60px;
+}
+.signin input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 31px;
+  padding: 15px 15px;
+  font-size: 25px;
+  margin-left: 30px;
+  width: 60%;
+}
+.signin button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 31px;
+  padding: 15px 15px;
+  font-size: 25px;
+  margin-left: 30px;
+  width: 247px;
+  background-color: #463636;
+}
+.signin form a{
+  margin-left: 35px;
+  margin-top: 20px;
+  font-size: 25px;
+  border: 1px solid #707070;
+  text-decoration: underline;
+}
